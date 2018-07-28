@@ -1,0 +1,32 @@
+.links{
+  margin-top: 10%;
+  margin-right:10px;
+}
+.header-links{
+  float: left;
+  margin-top: 10px;
+}
+.buttons{
+  margin-top:15px;
+}
+.footer-links{
+  float:center;
+  display:block;
+}
+.footer{
+  margin-top:3%;
+}
+.text{
+  font-size: 20px;
+  text-align: center;
+  color:#4682B4;
+}
+.about{
+  text-align: left;
+  display: inline;
+  float:left;
+  margin-right: 1%;
+}
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
